@@ -10,6 +10,9 @@ The objective of the project was to create a dashboard that analyzes the main ch
 ## PostgreSQL Overview
 ![PostgreSQLOverview](https://github.com/RiquelmoFerreira/Excel_PostgreSQL_Customer_Profile/blob/main/Imagem.png)
 
+## Diagram
+![Diagram](https://github.com/RiquelmoFerreira/Excel_PostgreSQL_Customer_Profile/blob/main/Diagram.PNG)
+
 ## Dashboard Overview
 ![DashboardOverview](https://github.com/RiquelmoFerreira/Excel_PostgreSQL_Customer_Profile/blob/main/Imagem2.png)
 
@@ -35,7 +38,7 @@ The objective of the project was to create a dashboard that analyzes the main ch
 
 
 # Author
-Riquelmo Afonso Avelar Ferreira
+## Riquelmo Afonso Avelar Ferreira
 
 https://www.linkedin.com/in/riquelmo-afonso-avelar-ferreira-a28619230/
 
