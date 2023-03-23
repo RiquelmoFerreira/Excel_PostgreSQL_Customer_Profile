@@ -25,6 +25,20 @@ ORDER BY "leads (%)"
 
 -- (Query 3) Leads Age Group
 -- Columns: age group, leads (%)
+CREATE FUNCTION DATEDIFF(unidade varchar, data_inicial date, data_final date)
+RETURNS INTEGER
+LANGUAGE SQL
+AS
+$$
+	SELECT
+		CASE
+			WHEN unidade in ('d', 'day', 'days') THEN (data_final - data_inicial)
+			WHEN unidade in ('w', 'week', 'weeks') THEN (data_final - data_inicial)/7
+			WHEN unidade in ('m', 'month', 'months') THEN (data_final - data_inicial)/30
+			WHEN unidade in ('y', 'year', 'years') THEN (data_final - data_inicial)/365
+			END AS diferenca
+$$
+
 
 SELECT 
 	CASE
