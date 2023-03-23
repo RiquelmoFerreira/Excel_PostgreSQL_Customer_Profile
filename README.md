@@ -28,8 +28,10 @@ The objective of the project was to create a dashboard that analyzes the main ch
 ## How to run:
 - Create 2 Schemas in PgAdmin 4: sales and temp_tables
 - New Query
-- Download the FullQuery.txt archive of the repositorie, press Ctrl + A, Copy and Paste in the Query Editor and Run
-- Now you can run the Project
+- Download the FullQuery.txt archive on the repositorie, press Ctrl + A, Copy and Paste in the Query Editor and Run
+- Download the CustomerProfile.sql archive on the repositorie and Run it
+- Download the Customer_Profile.xlsx archive on the repositorie
+- Enjoy the Project
 
 
 # Author
